@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char const *argv[])
+{
+    int r;
+    double Luas;
+
+    cout << "Masukan r  :";
+    cin >> r;
+
+    Luas = 3.14*r*r;
+    cout << "Luas Lingkaran =" << Luas << endl;
+
+    return 0;
+}
