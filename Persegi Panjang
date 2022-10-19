@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char const *argv[])
+{
+    int P, L, Luas;
+
+    cout << "Panjang    :";
+    cin >> P;
+    cout << "Lebar    :";
+    cin >> L;
+
+    Luas = P*L;
+    cout << "Luas Persegi Panjang = " << Luas << endl;
+
+    return 0;
+}
